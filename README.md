@@ -1,7 +1,7 @@
 # linux_cmd
 helpful linux commands
 
-> List all the files and folders from current directory and its subdirectory - ls -lRt
+> List all the files and folders from current directory and its subdirectory - ls -lRt 
 > List all the files of folders which root name in that line - ls -lRt | grep "root"
 > print all the files name which have root in the sentance while printing by ls -lRt --> ls -lRt | grep "root"|rev|cut -d' ' -f 1|rev
 > sort in descending order -ls -lRt | grep "root"|rev|cut -d' ' -f 1|rev|sort | uniq
